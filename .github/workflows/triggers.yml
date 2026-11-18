@@ -4,9 +4,9 @@ run-name: Laboratorio con triggers
 on:
     push: 
         branches:
-            - master
+            - main
     pull_request:
-        types: [opened]
+        types: [opened, synchronize]
         paths:
             - '**.py'
     issues:
